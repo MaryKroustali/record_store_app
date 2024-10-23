@@ -1,4 +1,4 @@
-CREATE procedure query2
+CREATE PROCEDURE [dbo].[query2]
 @StartDate DATE,
 @StopDate DATE
 AS 
