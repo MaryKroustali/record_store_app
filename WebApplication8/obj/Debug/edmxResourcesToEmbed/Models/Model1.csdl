@@ -37,7 +37,7 @@
     <Property Name="SupportRepId" Type="Int32" />
     <NavigationProperty Name="Employee" Relationship="Self.FK_CustomerSupportRepId" FromRole="Customer" ToRole="Employee" />
     <NavigationProperty Name="Invoice" Relationship="Self.FK_InvoiceCustomerId" FromRole="Customer" ToRole="Invoice" />
-    <!-- <Property Name="Turnover" Type="Double" /> -->
+    <Property Name="Turnover" Type="Double" />
     <Property Name="InvoiceId" Type="Int32" />
     <Property Name="EmployeeFirst" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="EmployeeLast" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
@@ -378,7 +378,7 @@
     <Property Type="String" Name="Telephone" Nullable="true" MaxLength="24" />
     <Property Type="String" Name="Mail" Nullable="false" MaxLength="60" />
     <Property Type="String" Name="Fax" Nullable="true" MaxLength="24" />
-    <!-- <Property Type="Decimal" Name="Turnover" Nullable="true" Precision="38" Scale="2" /> -->
+    <Property Type="Decimal" Name="Turnover" Nullable="true" Precision="38" Scale="2" />
   </ComplexType>
   <ComplexType Name="query5_Result">
     <Property Type="Int32" Name="InvoiceId" Nullable="false" />
