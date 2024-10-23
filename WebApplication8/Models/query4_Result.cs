@@ -26,6 +26,6 @@ namespace WebApplication8.Models
         public string Telephone { get; set; }
         public string Mail { get; set; }
         public string Fax { get; set; }
-        public Nullable<decimal> Turnover { get; set; }
+        // public Nullable<decimal> Turnover { get; set; }
     }
 }

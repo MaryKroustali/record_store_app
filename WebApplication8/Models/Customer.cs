@@ -33,10 +33,10 @@ namespace WebApplication8.Models
         public string Fax { get; set; }
         public string Email { get; set; }
         public Nullable<int> SupportRepId { get; set; }
-        public Nullable<double> Turnover { get; set; }
-        public Nullable<int> InvoiceId { get; set; }
-        public string EmployeeFirst { get; set; }
-        public string EmployeeLast { get; set; }
+        // public Nullable<double> Turnover { get; set; }
+        // public Nullable<int> InvoiceId { get; set; }
+        // public string EmployeeFirst { get; set; }
+        // public string EmployeeLast { get; set; }
     
         public virtual Employee Employee { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
