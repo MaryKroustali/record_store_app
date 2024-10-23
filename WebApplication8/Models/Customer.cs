@@ -33,7 +33,7 @@ namespace WebApplication8.Models
         public string Fax { get; set; }
         public string Email { get; set; }
         public Nullable<int> SupportRepId { get; set; }
-        // public Nullable<double> Turnover { get; set; }
+        public Nullable<double> Turnover { get; set; }
         // public Nullable<int> InvoiceId { get; set; }
         // public string EmployeeFirst { get; set; }
         // public string EmployeeLast { get; set; }

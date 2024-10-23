@@ -24,7 +24,7 @@
           <ScalarProperty Name="EmployeeLast" ColumnName="EmployeeLast" />
           <ScalarProperty Name="EmployeeFirst" ColumnName="EmployeeFirst" />
           <ScalarProperty Name="InvoiceId" ColumnName="InvoiceId" />
-          <ScalarProperty Name="Turnover" ColumnName="Turnover" />
+          <!-- <ScalarProperty Name="Turnover" ColumnName="Turnover" /> -->
           <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
           <ScalarProperty Name="FirstName" ColumnName="FirstName" />
           <ScalarProperty Name="LastName" ColumnName="LastName" />
@@ -202,7 +202,7 @@
           <ScalarProperty Name="Telephone" ColumnName="Telephone" />
           <ScalarProperty Name="Mail" ColumnName="Mail" />
           <ScalarProperty Name="Fax" ColumnName="Fax" />
-          <ScalarProperty Name="Turnover" ColumnName="Turnover" />
+          <!-- <ScalarProperty Name="Turnover" ColumnName="Turnover" /> -->
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>

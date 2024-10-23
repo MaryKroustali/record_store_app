@@ -32,7 +32,7 @@
     <Property Name="Fax" Type="nvarchar" MaxLength="24" />
     <Property Name="Email" Type="nvarchar" MaxLength="60" Nullable="false" />
     <Property Name="SupportRepId" Type="int" />
-    <Property Name="Turnover" Type="float" />
+    <!-- <Property Name="Turnover" Type="float" /> -->
     <Property Name="InvoiceId" Type="int" />
     <Property Name="EmployeeFirst" Type="nvarchar" MaxLength="20" />
     <Property Name="EmployeeLast" Type="nvarchar" MaxLength="20" />

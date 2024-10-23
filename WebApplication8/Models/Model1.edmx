@@ -37,7 +37,7 @@
           <Property Name="Fax" Type="nvarchar" MaxLength="24" />
           <Property Name="Email" Type="nvarchar" MaxLength="60" Nullable="false" />
           <Property Name="SupportRepId" Type="int" />
-          <Property Name="Turnover" Type="float" />
+          <!-- <Property Name="Turnover" Type="float" /> -->
           <Property Name="InvoiceId" Type="int" />
           <Property Name="EmployeeFirst" Type="nvarchar" MaxLength="20" />
           <Property Name="EmployeeLast" Type="nvarchar" MaxLength="20" />
@@ -390,7 +390,7 @@
           <Property Name="SupportRepId" Type="Int32" />
           <NavigationProperty Name="Employee" Relationship="Self.FK_CustomerSupportRepId" FromRole="Customer" ToRole="Employee" />
           <NavigationProperty Name="Invoice" Relationship="Self.FK_InvoiceCustomerId" FromRole="Customer" ToRole="Invoice" />
-          <Property Name="Turnover" Type="Double" />
+          <!-- <Property Name="Turnover" Type="Double" /> -->
           <Property Name="InvoiceId" Type="Int32" />
           <Property Name="EmployeeFirst" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="EmployeeLast" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
@@ -731,7 +731,7 @@
           <Property Type="String" Name="Telephone" Nullable="true" MaxLength="24" />
           <Property Type="String" Name="Mail" Nullable="false" MaxLength="60" />
           <Property Type="String" Name="Fax" Nullable="true" MaxLength="24" />
-          <Property Type="Decimal" Name="Turnover" Nullable="true" Precision="38" Scale="2" />
+          <!-- <Property Type="Decimal" Name="Turnover" Nullable="true" Precision="38" Scale="2" /> -->
         </ComplexType>
         <ComplexType Name="query5_Result">
           <Property Type="Int32" Name="InvoiceId" Nullable="false" />
@@ -769,7 +769,7 @@
                 <ScalarProperty Name="EmployeeLast" ColumnName="EmployeeLast" />
                 <ScalarProperty Name="EmployeeFirst" ColumnName="EmployeeFirst" />
                 <ScalarProperty Name="InvoiceId" ColumnName="InvoiceId" />
-                <ScalarProperty Name="Turnover" ColumnName="Turnover" />
+                <!-- <ScalarProperty Name="Turnover" ColumnName="Turnover" /> -->
                 <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
                 <ScalarProperty Name="FirstName" ColumnName="FirstName" />
                 <ScalarProperty Name="LastName" ColumnName="LastName" />
@@ -947,7 +947,7 @@
                 <ScalarProperty Name="Telephone" ColumnName="Telephone" />
                 <ScalarProperty Name="Mail" ColumnName="Mail" />
                 <ScalarProperty Name="Fax" ColumnName="Fax" />
-                <ScalarProperty Name="Turnover" ColumnName="Turnover" />
+                <!-- <ScalarProperty Name="Turnover" ColumnName="Turnover" /> -->
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
