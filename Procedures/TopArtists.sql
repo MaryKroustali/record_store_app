@@ -5,7 +5,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-ALTER PROCEDURE [dbo].[query1] /* If executing for th first time use CREATE instead of ALTER */
+CREATE PROCEDURE [dbo].[query1] /* If not executed for the first time use ALTER instead of CREATE */
  @X INT, --κορυφαίοι X καλλιτέχνες
  @StartDate DATETIME,  --ημερομηνία αναζήτησης
  @StopDate DATETIME
