@@ -1,4 +1,4 @@
-﻿USE [Chinook]
+﻿USE [chinook]
 GO
 /****** Object:  StoredProcedure [dbo].[query1]    Script Date: 16/1/2021 10:41:06 πμ ******/
 SET ANSI_NULLS ON
