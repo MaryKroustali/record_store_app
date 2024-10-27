@@ -30,6 +30,11 @@ namespace WebApplication8.Models
         public int Milliseconds { get; set; }
         public Nullable<int> Bytes { get; set; }
         public decimal UnitPrice { get; set; }
+        public Nullable<int> JanuaryMarch { get; set; }
+        public Nullable<int> AprilJune { get; set; }
+        public Nullable<int> JulySeptember { get; set; }
+        public Nullable<int> OctoberDecember { get; set; }
+        public string ArtistName { get; set; }
     
         public virtual Album Album { get; set; }
         public virtual Genre Genre { get; set; }
