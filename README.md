@@ -22,3 +22,6 @@ Update the `<connectionStrings>` section at [WebApplication8/Web.config](WebAppl
       <add name="ChinookEntities" connectionString="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=tcp:{sql_server},1433;initial catalog=chinook;User Id={sql_server_username};Password={sql_server_password};integrated security=False;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
     </connectionStrings>
    ```
+
+### Next steps
+[app-on-azure](https://github.com/MaryKroustali/app_on_azure_iac): Record Store application deployed on Azure using Infrastructure as Code (Bicep & Terraform)
