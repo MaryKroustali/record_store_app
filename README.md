@@ -24,4 +24,4 @@ Update the `<connectionStrings>` section at [WebApplication8/Web.config](WebAppl
    ```
 
 ## Next steps
-[app-on-azure](https://github.com/MaryKroustali/app_on_azure_iac): Record Store application deployed on Azure using Infrastructure as Code.
+[app_on_azure_iac](https://github.com/MaryKroustali/app_on_azure_iac): Record Store application deployed on Azure using Infrastructure as Code.
